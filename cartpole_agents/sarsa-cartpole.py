@@ -13,7 +13,7 @@ class cartpole_SARSAAgent():
         self.action_size = 2
 
         #learning rate for the optimizer
-        self.learning_rate = 0.005
+        self.learning_rate = 0.01
 
         #fraction for epsilon greedy strategy
         self.epsilon = 1.0
